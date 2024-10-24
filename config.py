@@ -182,7 +182,7 @@ for code in processed_codes:
             new_processed_codes.append(processed_part)
 
 i = 0
-with open("config.txt", "w", encoding="utf-8") as file:
+with open("Mahdi-Vip.txt", "w", encoding="utf-8") as file:
     for code in new_processed_codes:
         if i == 0:
             config_string = "#Updated at" + final_string + " | We have new configurations every 15 minutes!"
